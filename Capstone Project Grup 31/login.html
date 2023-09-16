@@ -5,43 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Register</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="container">
         <div class="signin-signup">
-
-            <form action="" class="sign-in-form">
-                <h2 class="title">Login</h2>
+            <div class="background-have-account">
+                <div class="have-account">
+                    <h2>Don't have an account?</h2>
+                    <button>Creat a free account</button>
+                </div>
+            </div>
+            
+            <div action="" class="sign-in-form">
+                <h2 class="title">Sign in to Harmony Mind</h2>
+                <p class="account-text">Use your email account : </p>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
                     <input type="text" placeholder="Username" maxlength="20" required>
                 </div>
-
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password" required>
                 </div>
-
                 <input type="submit" value="Login" class="btn">
-
-                <p class="social-text">Or Login with social platform </p>
-
-                <div class="social-media">
-                    <a href="https://id-id.facebook.com/login/device-based/regular/login/?login_attempt=1" class="social-icon">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiaWQifQ%3D%3D%22%7D" class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://accounts.google.com/login?hl=id" class="social-icon">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/login/in" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-
-                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Register</a></p>
-            </form>
+                
+            </div>
     </div>
 </body>
