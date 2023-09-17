@@ -102,7 +102,7 @@ body {
     display: flex;
     
 }
-.halo .home-image{
+.home-image{
   flex: 1 1 40rem;
   padding: 50px;
   text-align: left;
@@ -152,4 +152,14 @@ body {
     padding: 10px;
     margin-left: 50px;
     margin-top: 37px;
+}
+
+.left-content {
+    float: left;
+    width: auto
+}
+
+.right-content {
+    float: right;
+    width: auto;
 }
