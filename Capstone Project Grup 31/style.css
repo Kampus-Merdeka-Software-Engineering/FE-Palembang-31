@@ -194,10 +194,18 @@ body {
 .left-content {
     float: left;
     margin-top: 100px;
+<<<<<<< HEAD
     width: 480px
+=======
+    width: 480;
+>>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
 }
 
 .right-content {
     float: right;
+<<<<<<< HEAD
     width: auto;
+=======
+    width: 300px;
+>>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
 }
