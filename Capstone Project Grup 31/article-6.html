@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9 Cara Sederhana Menjaga Kesehatan Mental</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <style>
@@ -41,27 +44,29 @@
     </style>
 
     <div class="main-container">
-        <header class="nav-bar">
-            <img class="logo" src="assets/logo harmony.png" alt="logo">
-            <nav class="navbar-tombol">
-                <a href="Index.html">Home</a>
-                <a href="about-us.html">About Us</a>
-                <a href="psikolog.html">Psikolog</a>
-                <a href="article.html">Article</a>
-            </nav>
-
-            <div class="sign">
-                <a href="login.html">
-                    <button class="login" type="button">Login</button>
-                </a>
-                <a href="sign-up.html">
-                    <button class="sign-up" type="button">Sign Up</button>
-                </a>
-            </div>
-        </header>
+        <header>
+			<a href="#" class="logo-nbar">HARMON <span class="psi">Ψ</span> MIND      
+			</a>
+		
+			<ul class="menu-navbar">
+			  <li><a href="Index.html" class="active">Home</a></li>
+			  <li><a href="psikolog.html">Psychologist</a></li>
+			  <li><a href="article.html">Article</a></li>
+			  <li><a href="about-us.html">About Us</a></li>
+			</ul>
+		
+			<div class="main-navbar">
+			  <a href="login.html" class="user"><i class="ri-user-fill"></i>Log In</a>
+			  <a href="login.html">Sign Up</a>
+			  <div class="bx bx-menu" id="menu-icon"></div>
+			</div>
+		  </header>
+		  <!--javascript-->
+		  <script src="js/navbar.js"></script>
+        <!-- akhir header -->
         <div class="content">
             <h2 class="main-title">9 Cara Sederhana Menjaga Kesehatan Mental</h2>
-            <img class="img-article" src="assets/Article image 6.jpg" alt="img-6"/>
+            <img class="img-article" src="assets/jaga-kesehatan-mental.jpg" alt="img-6"/>
             <p style="margin-top: 10px;">
                 Untuk meningkatkan kesejahteraan secara keseluruhan, kamu tidak bisa hanya berfokus pada kesehatan fisik. Kesehatan mental juga memainkan peran yang besar dalam kehidupan. Kesehatan mental sebagai kemampuan diri sendiri untuk mengelola perasaan dan menghadapi kesulitan sehari-hari.
             </p>
@@ -95,45 +100,44 @@
                 Sayuran dan buah-buahan dipenuhi dengan nutrisi yang memberi makan setiap sel tubuh, termasuk yang mempengaruhi bahan kimia otak yang mengatur suasana hati. Sertakan makanan dengan asam lemak tak jenuh ganda Omega-3 (ditemukan dalam ikan, kacang-kacangan, dan biji rami). Nutrisi ini dapat meningkatkan suasana hati dan mengembalikan integritas struktural pada sel-sel otak yang diperlukan untuk fungsi kognitif.
             </p>
         </div>
-    <!--ini footer-->
-    <footer class="footer-distributed">
-        <div class="footer-left">
+        <footer class="footer-distributed">
+			<div class="footer-left">
 
-            <img src="assets/logo harmony aps.png" height="50px">
+				<a href="#" class="logo-nbar">HARMON <span class="psi">Ψ</span> MIND      
+				</a>
 
-            <p class="footer-links">
-                <a href="Index.html">Home</a>
-                ·
-                <a href="about-us.html">About Us</a>
-                ·
-                <a href="psikolog.html">Psikolog</a>
-                ·
-                <a href="article.html">Artikel</a>
-            </p>
+				<p class="footer-links">
+					<a href="Index.html">Home</a>
+					·
+					<a href="about-us.html">About Us</a>
+					·
+					<a href="psikolog.html">Psikolog</a>
+					·
+					<a href="article.html">Artikel</a>
+				</p>
 
-            <p class="footer-company-name" style="color: white;">Copyright © 2023</p>
+				<p class="footer-company-name" style="color: white;">Copyright © 2023</p>
 
-            <div class="footer-icons">
+				<div class="footer-icons">
 
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
+					<a href="#"><i class="bx bxl-facebook"></i></a>
+					<a href="#"><i class="bx bxl-twitter"></i></a>
+					<a href="#"><i class="bx bxl-linkedin"></i></a>
+					<a href="#"><i class="bx bxl-github"></i></a>
+					<a href="#"><i class="bx bxl-instagram"></i></a>
+				</div>
 
-        </div>
+			</div>
 
-        <div class="footer-right">
-            <p>Contact Us</p>
-            <form action="#" method="post">
-                <input type="text" name="email" placeholder="Email">
-                <textarea name="message" placeholder="Message"></textarea>
-                <button>Send</button>
-            </form>
-        </div>
-    </footer>
-    <!--akhir footer-->
+			<div class="footer-right">
+				<p>Contact Us</p>
+				<form action="#" method="post">
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+				</form>
+			</div>
+		</footer>
 
 </body>
 </html>
