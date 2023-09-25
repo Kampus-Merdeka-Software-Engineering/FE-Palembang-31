@@ -13,6 +13,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: rgb(183, 181, 190);
+    font-family: 'poppins';
 }
 
 .wrapper {
