@@ -83,11 +83,10 @@ body {
     color: white;
 }
 
-.home {
-    width: 1440px;
-    height: 632px;
-    flex-shrink: 0;
+#home {
+    max-width: 100%;
 }
+
 .home-page {
     justify-items: center;
 }
@@ -134,52 +133,69 @@ body {
     color: #0f29bdce;
 }
 
-.halo {
+section {
+    margin: auto;
     display: flex;
-    
-}
-.home-image{
-  flex: 1 1 40rem;
-  padding: 50px;
-  text-align: left;
-  padding-top: 0px;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  
+    margin-bottom: 50px;
 }
 
-.halo h1 {
-    color: #FFB834;
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-left: 50px;
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 90px;
 }
 
-.halo p {
-    width: 345px;
-    height: 186px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: Poppins;
-    font-size: 38px;
-    font-style: normal;
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:#FFB834;
+}
+
+h2 {
+    font-family: 'comic sans ms';
     font-weight: 800;
-    line-height: normal;
-    margin-left: 50px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
 }
 
-.halo q {
-    color: #000;
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 50px;
+.kami {
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    color: #364f6b;
+}
+
+.tbl-pink {
+    background: #4D9BE2FA;
+    font-family: 'comic sans ms';
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 170px;
+    padding: 15px 20px 15px 20px;
+    /* color: #FFFFFF; */
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+span {
+    color: #ffffff;
+}
+
+.tbl-pink:hover {
+    background: #364f6b;
+    text-decoration: none;
 }
 
 .home-image {
@@ -191,21 +207,17 @@ body {
     margin-top: 30px;
 }
 
-.left-content {
-    float: left;
-    margin-top: 100px;
-<<<<<<< HEAD
-    width: 480px
-=======
-    width: 480;
->>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
-}
+@media (min-width:800px) {
+    #home  {
+        display: flex;
+    }
 
-.right-content {
-    float: right;
-<<<<<<< HEAD
-    width: auto;
-=======
-    width: 300px;
->>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
+    .image {
+        width: 40%;
+        height: auto;
+    }
+
+    .kolom {
+        width: 100%;
+    }
 }
