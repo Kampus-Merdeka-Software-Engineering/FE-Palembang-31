@@ -153,12 +153,12 @@ section {
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'poppins';
     color:#FFB834;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -168,14 +168,14 @@ h2 {
 }
 
 .kami {
-    font-family: 'comic sans ms';
+    font-family: 'poppins';
     font-weight: bold;
     color: #364f6b;
 }
 
 .tbl-pink {
     background: #4D9BE2FA;
-    font-family: 'comic sans ms';
+    font-family: 'poppins';
     border-radius: 20px;
     margin-top: 40px;
     margin-left: 170px;
