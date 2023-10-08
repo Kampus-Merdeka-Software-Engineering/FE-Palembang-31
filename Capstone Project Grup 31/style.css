@@ -137,17 +137,29 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
+    box-sizing: border-box;
 }
+.flex-container {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
 .kolom {
     margin-top: 100px;
     margin-bottom: 50px;
     margin-left: 90px;
+    flex: 1;
 }
 
 .kolom .deskripsi {
@@ -199,25 +211,28 @@ span {
 }
 
 .home-image {
-    width: 800px;
-    height: 450px;
-    flex-shrink: 0;
-    padding: 10px;
-    margin-left: 50px;
-    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
-@media (min-width:800px) {
-    #home  {
-        display: flex;
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        font-size: 12px;
     }
 
-    .image {
+    .home-image {
         width: 40%;
-        height: auto;
+        margin-left: 50px;
     }
 
     .kolom {
-        width: 100%;
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .tbl-pink {
+        margin-right: auto;
     }
 }
